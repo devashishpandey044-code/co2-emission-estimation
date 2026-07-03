@@ -1,0 +1,6 @@
+__pycache__/
+*.pt
+data/monthly/
+data/tiles/
+data/tiles_negative/
+*.html
