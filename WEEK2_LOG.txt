@@ -1,0 +1,10 @@
+WEEK 2 — DONE
+- Picked top-5 Indian coal plants from WRI Global Power Plant DB
+- Exported 64x64 NO2 tiles (yearly + monthly) via Earth Engine
+- Built balanced dataset: 120 plume + 120 no-plume monthly tiles
+- Trained CNN detector on RTX 3050 GPU -> 91.2% test accuracy
+- Saved model: detector.pt
+
+NEXT (Week 3):
+- Move from NO2 proxy to actual CO2 (OCO-2/OCO-3 XCO2 data)
+- Or: harder negatives (cities/highways) to make detection meaningful

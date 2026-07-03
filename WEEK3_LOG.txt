@@ -1,0 +1,20 @@
+WEEK 3 — DONE (hard negatives + explainability)
+
+FINDING: NO2-shape CNN detects plants at 95% recall but confuses
+concentrated industrial/urban hotspots with power plants.
+- hard-only accuracy: 77.1%  (vs 91.2% easy task in Week 2)
+- mixed accuracy: 87.5%
+- worst false alarms: Jamshedpur, Bhilai (steel), Bangalore, Mumbai
+- highways rarely confused (diffuse/linear, not point-like)
+- Grad-CAM confirms model fixates on the compact NO2 hotspot
+
+CONCLUSION: detector = "concentrated combustion detector", not
+"power-plant-specific". Motivates multi-pollutant / spectral features.
+
+Models: detector_hard_only.pt, detector_mixed.pt
+Figures: comparison_types.png, worst_false_alarms.png, gradcam.png
+
+NEXT (Week 4 options):
+- Add a 2nd input channel (SO2 or CO) to separate coal plants from
+  steel/urban sources
+- OR move to real CO2 (OCO-2/3)
