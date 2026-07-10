@@ -1,0 +1,16 @@
+name,latitude,longitude
+city_Delhi,28.61,77.21
+city_Mumbai,19.08,72.88
+city_Kolkata,22.57,88.36
+city_Bangalore,12.97,77.59
+city_Hyderabad,17.39,78.49
+ind_Jamshedpur,22.8,86.18
+ind_Bhilai,21.19,81.38
+ind_Kanpur,26.45,80.33
+ind_Ludhiana,30.9,75.85
+ind_Surat,21.17,72.83
+hwy_DelhiJaipur,27.6,76.6
+hwy_MumbaiPune,18.75,73.5
+hwy_AgraKanpur,27.0,79.2
+hwy_AhmedabadVadodara,22.7,72.9
+hwy_GTRoad_UP,26.9,81.9

@@ -4,3 +4,13 @@ data/monthly/
 data/tiles/
 data/tiles_negative/
 *.html
+data/oco3/
+data/scan_tmp/
+data/oco3_scan/
+*.nc4
+*.nc
+.netrc
+*.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
