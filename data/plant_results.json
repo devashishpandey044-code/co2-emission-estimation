@@ -1,0 +1,54 @@
+[
+  {
+    "plant": "Sasan",
+    "lat": 23.98,
+    "lon": 82.62,
+    "hit_days": 9,
+    "soundings": 3308,
+    "co2_enhancement_ppm": 1.024,
+    "bg_std_ppm": 2.086,
+    "no2_peak_km": 15.5,
+    "wind_deg": 106.0,
+    "co2_offset_deg": 11.0,
+    "wind_co2_diff_deg": 96.0
+  },
+  {
+    "plant": "Mundra",
+    "lat": 22.82,
+    "lon": 69.55,
+    "hit_days": 5,
+    "soundings": 57,
+    "co2_enhancement_ppm": null,
+    "bg_std_ppm": 0.825,
+    "no2_peak_km": 64.7,
+    "wind_deg": 98.0,
+    "co2_offset_deg": 312.0,
+    "wind_co2_diff_deg": 146.0
+  },
+  {
+    "plant": "Tirora",
+    "lat": 21.41,
+    "lon": 79.94,
+    "hit_days": 5,
+    "soundings": 671,
+    "co2_enhancement_ppm": 1.724,
+    "bg_std_ppm": 1.197,
+    "no2_peak_km": 2.0,
+    "wind_deg": 132.0,
+    "co2_offset_deg": 224.0,
+    "wind_co2_diff_deg": 92.0
+  },
+  {
+    "plant": "Vindhyachal",
+    "lat": 24.1,
+    "lon": 82.67,
+    "hit_days": 17,
+    "soundings": 7114,
+    "co2_enhancement_ppm": 0.97,
+    "bg_std_ppm": 1.796,
+    "no2_peak_km": 7.1,
+    "wind_deg": 110.0,
+    "co2_offset_deg": 143.0,
+    "wind_co2_diff_deg": 33.0
+  }
+]
